@@ -100,9 +100,17 @@ wine path/to/setup.exe
 wine ~/.wine/drive_c/Program\ Files/path/to/program.exe
 ```
 
-# Git
+# Development Setup
+
+## Git
 
 ```
 git config --global user.email "your@email.com"
 git config --global user.name "Your Name"
+```
+
+## npm
+
+```
+npm install -g forever grunt-cli istanbul karma
 ```
